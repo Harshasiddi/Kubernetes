@@ -22,6 +22,7 @@ spec:
       containers:
       - name: Formulamonks
         image: testharshaacr.azurecr.io/Formulamonks:tag
+        Here the script would be updating whenever there is a new build
         ports:
         - containerPort: 80
         resources:
