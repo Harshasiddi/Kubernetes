@@ -30,14 +30,3 @@ spec:
             cpu: 250m
           limits:
             cpu: 500m
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: Formulamonks
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-  selector:
-    app: Formulamonks
